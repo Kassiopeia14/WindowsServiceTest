@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2d362c4c-3e43-4ab5-829b-ec10e5bd2f91}</ProjectGuid>
-    <RootNamespace>TestService</RootNamespace>
+    <ProjectGuid>{3b8de9f3-5dd8-401c-83c2-3d4faf78f199}</ProjectGuid>
+    <RootNamespace>TestProcess</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -124,14 +124,10 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="TestService_Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="TestServiceMessages.mc" />
+    <ClCompile Include="TestProcess_Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,11 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TestService_Main.cpp">
+    <ClCompile Include="TestProcess_Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="TestServiceMessages.mc" />
   </ItemGroup>
 </Project>
